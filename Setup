@@ -1,0 +1,13 @@
+#raw performance
+
+A swiftUI Demo for the raw performance app project
+
+##requirements
+- XCODE 12.0/later
+- Swift 5.0/later
+
+##installation
+1. clone repo
+git clone https://github.com/marisamunoz/RawPerformanceApp
+
+open RawPerformanceApp.xcodeproj
