@@ -54,6 +54,7 @@ struct Menu: View {
                     .foregroundColor(Color(red: 0.5, green: 0, blue: 0))
                     .padding(.bottom, 400)
                     .padding(.leading, 270)
+                    
                     Text("Upcoming")
                         .font(.system(size: 20, weight: .bold, design: .monospaced))
                         .padding(.bottom, 400)
@@ -130,12 +131,13 @@ struct Menu: View {
                         .frame(width: 450, height: 150)
                         .padding(.top, 780)
                         .cornerRadius(10)
+                    NavigationLink(destination: Schedule()){
                         Text("Classes")
                             .foregroundColor(Color.gray)
                             .font(.system(size: 20, weight: .bold, design: .monospaced))
                             .padding(.top, 760)
                             .padding(.trailing, 200)
-            
+                    }
                     Text("Activity")
                         .foregroundColor(Color.gray)
                         .font(.system(size: 20, weight: .bold, design: .monospaced))
